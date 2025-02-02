@@ -1,0 +1,79 @@
+comandos parámetros de red
+
+nmcli: Administrador de red 
+
+nmcli connection edit: Este comando permite editar una conexión de red específica en modo interactivo. Abra un editor para modificar configuraciones como direcciones IP, DNS, puertas de enlace, etc.
+
+print:  Este comando se usa dentro de otros comandos nmcli (especialmente nmcli connection edit) para mostrar la configuración actual de una conexión. 
+
+nmcli connection edit: <nombre_de_conexion>: Abre una sesión interactiva para editar la configuración de la conexión especificada.
+
+set:  Dentro de la sesión de edición (nmcli connection edit), este comando se usa para modificar parámetros de la conexión.  Necesita argumentos específicos, como los que mencionas a continuación.
+
+print ipv4: Dentro de la sesión de edición, muestra la configuración IPv4 actual de la conexión.
+
+set ipv4.method <método>:  Dentro de la sesión de edición, establece el método de configuración IPv4.
+
+set ipv4.addresses <dirección>/<máscara>: Dentro de la sesión de edición, establece la dirección IP y la máscara de red. 
+
+set ipv4.gateway <dirección>: Dentro de la sesión de edición, establece la dirección de la puerta de enlace (gateway) predeterminada.
+
+save: Dentro de la sesión de edición, guarda los cambios realizados en la configuración de la conexión.
+
+quit: Dentro de la sesión de edición, sale de la sesión sin guardar los cambios (si no se ha ejecutado save).
+
+nmcli connection modify <nombre_de_conexion>.<parametro> <valor>: Permite modificar un parámetro específico de una conexión sin necesidad de entrar en la sesión interactiva de edición. 
+
+nmcli connection up <nombre_de_conexion>: Activa la conexión especificada.
+
+nmcli connection down <nombre_de_conexion>: Desactiva la conexión especificada.
+
+
+Comandos Gestion de Usuarios y grupos
+
+sudo useradd : Este comando se utiliza para crear un nuevo usuario en el sistema.  sudo eleva los privilegios para ejecutar el comando como administrador (root), ya que la creación de usuarios requiere permisos especiales.
+
+sudo passwd : Este comando se utiliza para establecer o cambiar la contraseña de un usuario.
+
+cat /etc/passwd: Este comando muestra el contenido del archivo /etc/passwd.  Este archivo contiene información sobre todos los usuarios del sistema, como su nombre de usuario, UID (identificador único de usuario), GID (identificador de grupo), directorio home y shell de inicio de sesión.
+
+sudo usermod -aG  : Este comando se utiliza para modificar las propiedades de un usuario existente.  -aG significa "añadir al grupo".  <grupo> es el nombre del grupo al que quieres añadir al usuario
+
+sudo userdel <nombre_de_usuario>: Este comando se utiliza para eliminar un usuario del sistema. 
+
+sudo groupadd <nombre_de_grupo>: Este comando se utiliza para crear un nuevo grupo en el sistema.
+
+sudo groupdel <nombre_de_grupo>: Este comando se utiliza para eliminar un grupo del sistema.
+
+
+Comandos Gestion de permisos de archivos
+
+mkdir <nombre_de_directorio>: Este comando se utiliza para crear un nuevo directorio
+
+touch <nombre_de_archivo>: Este comando se utiliza para crear un nuevo archivo vacío.
+
+vi <nombre_de_archivo>: Este comando abre el editor de texto vi (o vim, que es una versión mejorada de vi) para editar un archivo.
+
+cat <nombre_de_archivo>: Este comando se utiliza para mostrar el contenido de un archivo en la terminal. 
+
+cp <origen> <destino>: Este comando se utiliza para copiar archivos y directorios. 
+
+rm -r <nombre_de_directorio>: Este comando se utiliza para eliminar archivos y directorios. 
+
+chmod <permisos> <nombre_de_archivo>: Este comando se utiliza para cambiar los permisos de un archivo o directorio. 
+
+chown <usuario>:<grupo> <nombre_de_archivo>: Este comando se utiliza para cambiar el propietario y el grupo de un archivo o directorio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
