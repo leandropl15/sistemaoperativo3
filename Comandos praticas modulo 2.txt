@@ -1,0 +1,40 @@
+Comandos praticas modulo 2
+
+Practica 1:
+
+dnf update: Este comando se utiliza para actualizar los paquetes instalados en tu sistema. Busca las versiones más recientes de los paquetes en los repositorios configurados y los actualiza si hay nuevas versiones disponibles.
+
+dnf upgrade: Este comando es similar a dnf update, pero también puede actualizar la distribución de Linux a una versión más reciente si está disponible.
+
+dnf repolist: Este comando muestra una lista de los repositorios de software configurados en tu sistema.
+
+dnf search <término>: Este comando busca paquetes de software en los repositorios que coinciden con el término de búsqueda especificado. 
+
+dnf install <paquete>: Este comando instala el paquete de software especificado en tu sistema.
+
+git clone <URL>: Este comando se utiliza para copiar un repositorio de Git de una ubicación remota a tu computadora local. 
+
+rm -rf <archivo o directorio>: Este comando se utiliza para eliminar archivos y directorios.  La opción -r se utiliza para eliminar directorios de forma recursiva (es decir, eliminar todos los archivos y subdirectorios dentro del directorio). La opción -f fuerza la eliminación sin preguntar.
+
+dnf autoremove: Este comando elimina los paquetes que ya no son necesarios en tu sistema. Esto puede ayudar a liberar espacio en disco.
+
+
+Practica 2:
+
+nano:  nano es un editor de texto sencillo y fácil de usar que se ejecuta en la terminal. Es ideal para principiantes o para editar archivos de configuración rápidamente. 
+
+crontab -e: Este comando abre el archivo crontab para el usuario actual, permitiéndote editar las tareas programadas (cron jobs).  crontab es una herramienta que permite ejecutar comandos o scripts automáticamente a intervalos regulares (por ejemplo, cada hora, cada día, cada semana, etc.)
+
+crontab -l: Este comando muestra la lista de tareas programadas (cron jobs) para el usuario actual.
+
+crontab -l -u <usuario>:  Similar a crontab -l, pero muestra las tareas programadas para un usuario específico.  Necesitas privilegios de administrador (sudo) para ver las crontabs de otros usuarios.
+
+cd: Este comando se utiliza para cambiar de directorio.  cd <ruta> te lleva al directorio especificado.
+
+echo <texto>: Este comando muestra el texto especificado en la terminal. Se usa comúnmente para mostrar mensajes, variables o para redirigir la salida de otros comandos a archivos.
+
+at now: Este comando permite programar la ejecución de un comando o script una sola vez, inmediatamente.
+
+
+
+
