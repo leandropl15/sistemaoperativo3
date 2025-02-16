@@ -1,0 +1,82 @@
+laboratorio 3  comandos
+
+practica 1
+
+cd significa "cambiar directorio".
+
+/etc/default es un directorio en sistemas basados en Linux que contiene archivos de configuración predeterminados para varias aplicaciones y servicios.
+
+mount es un comando que se utiliza para adjuntar un sistema de archivos a un directorio específico (punto de montaje).
+
+-o remount es una opción que le indica al sistema que vuelva a montar un sistema de archivos ya montado, posiblemente con nuevas opciones.
+
+passwd: Este comando se utiliza para cambiar la contraseña de un usuario.
+
+touch tiene dos usos principales:
+Si el archivo especificado no existe, crea un archivo vacío.
+Si el archivo ya existe, actualiza la marca de tiempo del archivo (tiempos de modificación y acceso).
+
+rd.break:
+Este es un parámetro de arranque especial utilizado principalmente en sistemas basados en Red Hat Enterprise Linux (RHEL) y CentOS.
+Interrumpe el proceso de arranque normal y deja el sistema en un shell de emergencia dentro del entorno initramfs.
+
+exit: Este comando cierra la sesión de terminal actual.
+
+practica 2
+
+nano backup.sh:
+nano es un editor de texto simple basado en terminal.
+backup.sh es el nombre de un archivo, en este caso, un script de shell (un archivo que contiene una serie de comandos).
+
+/bin/bash es la ruta al intérprete de comandos Bash (Bourne Again SHell).
+Ejecutar este comando inicia una nueva sesión de Bash. Básicamente, estás abriendo una nueva ventana de terminal o iniciando una nueva sesión de shell.
+
+chmod 
+(change mode) se utiliza para cambiar los permisos de archivos y directorios.
+
+date 
+muestra la fecha y hora actuales del sistema.
+
+tar -xzvf archivo.tar.gz extrae los archivos de un archivo comprimido llamado archivo.tar.gz.
+
+rm (remove) se utiliza para eliminar archivos y directorios.
+-r: Elimina directorios y su contenido de forma recursiva.
+-f: Fuerza la eliminación, sin preguntar confirmación.
+
+cat 
+(concatenate) se utiliza para mostrar el contenido de uno o más archivos de texto
+
+practica 3
+
+ifconfig:
+Este comando (interface configuration) se utiliza en Linux y otros sistemas operativos tipo Unix para mostrar y configurar interfaces de red.
+
+ping
+es una utilidad de red que se utiliza para probar la accesibilidad de un host en una red de Protocolo de Internet (IP
+
+systemctl status (nombre del servicio) 
+se utiliza para mostrar el estado actual de un servicio.
+
+stemctl start (nombre del servicio) 
+iniciará el servicio indicado.
+
+mkdir (make directory) 
+se utiliza para crear nuevos directorios.
+
+systemctl restart (nombre del servicio) 
+detendrá y luego iniciará el servicio especificado.
+
+ssh-keygen 
+se utiliza para generar pares de claves SSH (Secure Shell).
+
+
+
+
+
+
+
+
+
+
+
+
