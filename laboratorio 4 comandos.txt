@@ -1,0 +1,38 @@
+laboratorio 4
+
+dnf install:
+Este comando se utiliza para instalar paquetes de software en distribuciones de Linux que utilizan el gestor de paquetes DNF (como Fedora, CentOS y RHEL).
+
+cd:
+"cd" significa "change directory" (cambiar directorio).
+Se utiliza para navegar entre los directorios (carpetas) en la línea de comandos.
+
+systemctl start:
+Este comando se utiliza para iniciar un servicio gestionado por systemd, que es el sistema de administración de servicios en muchas distribuciones de Linux modernas.
+
+mkdir:
+mkdir significa "make directory" (crear directorio).
+Se utiliza para crear nuevos directorios (carpetas).
+nano:
+Nano es un editor de texto sencillo que se utiliza en la línea de comandos.
+Te permite crear y editar archivos de texto directamente en la terminal.
+
+systemctl restart:
+Este comando se utiliza para reiniciar un servicio gestionado por systemd.
+Es útil cuando necesitas aplicar cambios de configuración a un servicio o cuando un servicio se ha comportado de manera inesperada.
+
+firewall-cmd --permanent --add-port=<puerto>/tcp:
+
+Este comando agrega una regla al cortafuegos para permitir el tráfico en un puerto TCP específico.
+
+firewall-cmd --reload:
+
+Este comando recarga la configuración de firewalld.
+Después de realizar cambios en las reglas del cortafuegos (como agregar o eliminar puertos), necesitas recargar firewalld para que esos cambios surtan efecto de inmediato.
+
+chmod 
+en Linux se utiliza para cambiar los permisos de acceso de archivos y directorios.
+
+
+
+
