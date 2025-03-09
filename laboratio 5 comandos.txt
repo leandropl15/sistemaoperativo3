@@ -1,0 +1,42 @@
+laboratio 5 comandos
+
+dnf install:
+Este comando se utiliza en distribuciones de Linux basadas en Red Hat (como Fedora, CentOS, RHEL) para instalar paquetes de software.
+
+systemctl enable:
+Se usa para habilitar un servicio para que se inicie automáticamente durante el arranque del sistema.
+
+systemctl start:
+Este comando arranca un servicio inmediatamente. Es útil si deseas iniciar un servicio sin tener que reiniciar el sistema o configurar su inicio automático.
+
+firewall-cmd --permanent --add-service:
+Este comando se utiliza en sistemas que usan firewalld para administrar las reglas del firewall. Permite agregar una regla para un servicio específico (como HTTP, HTTPS, etc.) de manera permanente.
+
+firewall-cmd --reload:
+Después de agregar, eliminar o modificar reglas en el firewall, este comando recarga la configuración del firewall para que los cambios entren en efecto sin tener que reiniciar el servicio de firewalld.
+
+passwd:
+Este comando se utiliza para cambiar la contraseña de un usuario en Linux. Si se ejecuta sin opciones, cambia la contraseña del usuario actual; si se especifica un nombre de usuario, permite cambiar la contraseña de ese usuario.
+
+pcs status:
+Este comando se usa para verificar el estado de un clúster de alta disponibilidad en un sistema que usa Pacemaker y Corosync. Muestra información sobre los nodos del clúster, los recursos y el estado general del clúster.
+
+pcs cluster start --all:
+Este comando inicia todos los nodos de un clúster de Pacemaker y Corosync. Si un clúster está detenido o inactivo, este comando lo pone en funcionamiento.
+
+pcs cluster enable --all:
+Este comando habilita el clúster de alta disponibilidad en todos los nodos. Es necesario para que los nodos comiencen a participar activamente en el clúster.
+
+
+curl localhost:
+curl es una herramienta para transferir datos desde o hacia un servidor, utilizando varios protocolos como HTTP, FTP, etc. Al ejecutar curl localhost, se realiza una solicitud HTTP al servidor web en tu máquina local (localhost).
+
+cat:
+Este comando muestra el contenido de un archivo en la salida estándar (generalmente la terminal).
+
+
+
+
+
+
+
