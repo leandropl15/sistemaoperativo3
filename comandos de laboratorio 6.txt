@@ -1,0 +1,52 @@
+comandos de laboratorio 6
+
+
+dnf install:
+Usado en distribuciones de Linux basadas en Red Hat (como Fedora o CentOS) para instalar paquetes de software. 
+
+mkdir:
+Crea un directorio (carpeta) nuevo en el sistema.
+
+cd:
+Cambia el directorio actual en la terminal.
+
+cat:
+Muestra el contenido de un archivo en la terminal. También puede ser usado para concatenar archivos.
+
+gpg2 -c:
+Utilizado para cifrar un archivo de manera simétrica usando GPG (GNU Privacy Guard).
+
+rm -rf:
+Elimina archivos o directorios de manera recursiva y forzada. Usar con precaución, ya que elimina de forma permanente. 
+
+gpg2 + archivo.txt:
+Comando incompleto, pero se refiere a usar GPG para operar sobre un archivo, probablemente para firmar o verificar el archivo. El uso completo podría ser algo como: gpg2 --decrypt archivo.txt.gpg para descifrar un archivo.
+
+scp:
+Copia segura de archivos entre equipos a través de SSH (Secure Shell). Ejemplo: scp archivo.txt usuario@host:/ruta/destino.
+
+nano:
+Un editor de texto en la terminal. Permite editar archivos de texto directamente desde la terminal. Ejemplo: nano archivo.txt.
+
+dduser:
+Comando para crear un nuevo usuario en el sistema. Ejemplo: adduser nuevo_usuario
+
+passwd:
+Cambia la contraseña de un usuario. Ejemplo: passwd usuario te permitirá establecer una nueva contraseña para el usuario indicado.
+
+curl:
+Herramienta para transferir datos desde o hacia un servidor. Se usa frecuentemente para descargar archivos o hacer peticiones HTTP. Ejemplo: curl http://ejemplo.com.
+
+ptables -A INPUT -p tcp --dport:
+Agrega una regla al firewall (iptables) para permitir o bloquear tráfico entrante (INPUT) en un puerto TCP específico. Ejemplo: iptables -A INPUT -p tcp --dport 80 -j ACCEPT permite el tráfico en el puerto 80 (HTTP).
+
+firewall-cmd:
+Herramienta para gestionar firewalls en sistemas con firewalld (usado en distribuciones de Linux como CentOS y Fedora). Permite agregar, eliminar y ver reglas del firewall. Ejemplo: firewall-cmd --zone=public --add-port=80/tcp permite el puerto 80 (HTTP) en la zona pública.
+
+
+
+
+
+
+
+
