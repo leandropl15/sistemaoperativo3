@@ -1,0 +1,46 @@
+ssh de windows a linux
+
+paso 1:generar llaves ssh
+ssh-keygen -t rsa -b 4096
+
+paso 2:ver la llave publica de la maquina
+cat ~/.ssh/id_rsa.pub
+
+(con editor de texto)notepad C:\Users\Leandro Peña\.ssh\id_rsa.pub
+
+paso 3: ir a Linux 
+
+paso 4: crear un directorio ~/.ssh
+mkdir -p ~/.ssh
+
+paso 5:agregar la llave publica de windows al autorized_keys
+nano  ~/.ssh/authorized_keys
+
+paso 6:dar los permisos al autorized_keys
+chmod 600 ~/.ssh/authorized_keys
+
+
+ssh de Linux a Linux
+
+paso 1:generar llaves ssh
+ssh-keygen -t rsa -b 4096
+
+paso 2: copiar la clave al servidor destino
+ssh-copy-id usuario@ip del servidor
+
+paso 3: ver la llave publica
+cat ~/.ssh/id_rsa.pub
+
+paso 4:crear un directorio ~/.ssh
+mkdir -p ~/.ssh
+
+paso 5:agregar la llave publica de windows al autorized_keys
+nano  ~/.ssh/authorized_keys
+
+paso 6:dar los permisos al autorized_keys
+chmod 600 ~/.ssh/authorized_keys
+
+
+
+
+
