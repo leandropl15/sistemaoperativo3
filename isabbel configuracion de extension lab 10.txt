@@ -1,0 +1,100 @@
+exposion del viernes practica 10
+
+paso 1:
+crear la maquina rocky en digital ocean
+
+paso 2:
+entrar con ssh desde la maquina host o tu distro asignada
+
+paso 3: actualizar repositorios del sistema
+dnf update -y
+
+paso 4:instalar el wget
+dnf install wget -y 
+
+paso 5:poner el repositorio de isabell
+wget http://repo.issabel.org/issabel5-netinstall.sh
+
+paso 6:dar permisos de ejecucion al script de issabel
+chmod 700 + scrit
+chmod +x + scrit
+
+paso 7:ejecutar el script
+./ + scrit
+
+paso 8:selccionar idioma 
+ingles de preferencia
+
+paso 9:seleccionar version del aterisco
+()16
+()18
+
+paso 10:instalacion de paquetes adicionales 
+solo el issabel (dejar aterisco)
+community realtime block (quitar aterisco)
+sangoma wanpipe drivers (quitar aterisco)
+
+paso 11: poner contrase;as de MariaDB root y de IssabelPBX 'admin'
+contrase;a: kali
+
+paso 12:seleccionar el default SIP channel drivers
+chan_pjsip (seleccionar)
+
+paso 13:continuar
+continuar dandole a thank you, I will.
+
+paso 14:ir a tu navegador y poner la ip publica de la maquina de la nube
+ejemplo: 172.17.1.0
+
+paso 15: logearse en issabel
+usuario: admin
+contrase;a configurada: kali
+
+paso 16: ir al menu de la izquieda buscar PBX	
+dirigirse a la parte de PBX
+
+paso 17:configurar las extensiones
+ir donde dice applications y buscar entensions
+
+paso 18:agregar extension
+darle submit
+
+paso 19: configurar la extension
+user extension: numero de la extension ejemplo:2220
+display name: poner un nombre 
+secret: poner una contrase;a ejemplo: kali
+luego presionar submit y darle a apply config
+
+paso 20:descargar microsip
+ir a tu navegador y descagar el instalar microsip
+
+paso 21: desplegar y configurar la extension en microsip
+flechita de arriba darle a agregar cuenta
+
+paso 22: configurar la cuenta
+nombre de cuenta: el que quieras
+servidor sip: ip publica de la maquina de la nube
+usuario: numero de la extension
+dominio: ip publica de la maquina de la nube
+contrase;a: contrase;a que configuraste en la extension de issabel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
